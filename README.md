@@ -1,4 +1,4 @@
-*** create database for game, sql query as below:
+### create database for game, sql query as below:
 
 create database vaccine_game;
 use vaccine_game;
