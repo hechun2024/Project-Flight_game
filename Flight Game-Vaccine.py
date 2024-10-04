@@ -24,7 +24,6 @@ conn = mysql.connector.connect(
     collation='utf8mb4_unicode_ci'
 )
 
-
 def get_airports():
     sql = """SELECT iso_country, ident, name, type, latitude_deg, longitude_deg
 FROM airport
