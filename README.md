@@ -43,3 +43,6 @@ CREATE TABLE port_contents (
   found TINYINT(1) DEFAULT 0
  );
 
+ALTER TABLE port_contents
+ADD CONSTRAINT fk_game_id
+FOREIGN KEY (game_id) REFERENCES game(id);
